@@ -1,6 +1,6 @@
-# Character Selection & Detail Viewer - CoA: Tinh Thể Atlan
+# Character Selection & Detail Viewer - Crystal of Atlan
 
-This is a web application that allows players to select a character and view detailed information for each character in the game CoA: Tinh Thể Atlan. The interface is modern, smooth, and easily extensible for new events or game versions.
+This is a web application that allows players to select a character and view detailed information for each character in the game Crystal of Atlan. The interface is modern, smooth, and easily extensible for new events or game versions.
 
 ### Technologies Used
 - **Next.js**: React framework for server-side rendering and routing

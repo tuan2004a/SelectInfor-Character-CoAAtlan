@@ -24,3 +24,7 @@ body {
     color: var(--foreground);
     font-family: NotoSansJP, SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
+
+.badgeView{
+    mask-image: linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%, transparent 100%, transparent 100%);
+}
