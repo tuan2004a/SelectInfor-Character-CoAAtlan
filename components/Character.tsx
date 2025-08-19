@@ -1,9 +1,13 @@
 import React from 'react'
 
-const Character = () => {
+interface CharacterProps{
+    className?: string
+}
+
+const Character: React.FC<CharacterProps> = ({className}) => {
     return (
-        <div>
-            Character
+        <div className={`${className}`}>
+            <img src="#" alt="" />
         </div>
     )
 }

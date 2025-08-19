@@ -1,11 +1,15 @@
-import React from 'react'
+import React from "react";
 
-const DetailChar = () => {
-    return (
-        <div>
-            Detail Character
-        </div>
-    )
+interface DetailProps {
+    className?: string;
 }
 
-export default DetailChar
+const DetailChar: React.FC<DetailProps> = ({ className }) => {
+    return (
+        <div className={className}>
+            Detail Character
+        </div>
+    );
+};
+
+export default DetailChar;

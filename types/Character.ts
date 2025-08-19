@@ -7,6 +7,7 @@ export interface Character {
     bgCharacter: {
         bgView: string;
         bgDetail: string;
+        bgSlide: string;
     };
     textBg: {
         textView: string;
