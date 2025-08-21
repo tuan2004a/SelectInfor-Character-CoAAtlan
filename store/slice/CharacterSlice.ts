@@ -1,11 +1,11 @@
 //CharacterSlice.tsx
-import { Character } from '@/types/Character';
+import { CharacterType } from '@/types/Character';
 import CharacterService from '@/service/CharacterService';
 
 class CharacterSlice {
     private constructor() { }
 
-    static async fetchCharacter():Promise<Character[]> {
+    static async fetchCharacter():Promise<CharacterType[]> {
         try {
             const response = await CharacterService.getCharacter();
             return response;

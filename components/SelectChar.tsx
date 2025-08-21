@@ -1,15 +1,20 @@
+"use client";
+//selectcChar.tsx
 import React from "react";
+import { CharacterType } from "@/types/Character";
+import 'swiper/css';
 
 interface SelectProps {
     className?: string;
+    ItemsData: CharacterType;
+    onClick?: any;
 }
 
-const SelectChar: React.FC<SelectProps> = ({className}) => {
+const SelectChar: React.FC<SelectProps> = ({className, ItemsData, }) => {
     return (
-        <div className={`${className} h-full`}>
-            <ul className="grid grid-cols-5 h-full *:size-full *:overflow-hidden *:flex *:items-center *:justify-center *:grayscale *:brightness-53 *:bg-[#161616]">
-
-            </ul>
+        <div  key={ItemsData.id} className="itemsChar !h-full overflow-hidden">
+            <img className="absolute z-10 size-10 top-15 left-1/2 -translate-x-1/2 brightness-0 invert-100 " src={ItemsData?.badge?.badgeView || undefined} alt="" />
+            <img className=" scale-110 -translate-y-10 silderChar" src={ItemsData?.bgCharacter?.bgSlide || undefined} alt="ItemsData" />
         </div>
     )
 }

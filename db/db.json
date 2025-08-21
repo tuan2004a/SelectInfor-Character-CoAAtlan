@@ -3,20 +3,20 @@
         {
             "id" : 1,
             "name": "Mystrix",
-            "characterImg": "",
+            "characterImg": "/img/ImgChar/Mystrix.png",
             "bgCharacter": {
-                "bgView": "",
-                "bgDetail": "",
-                "bgSlide": ""
+                "bgView": "/img/bgChar/bgView/Mystrix-bg-view.png",
+                "bgDetail": "/img/badge/badgeDetail/Mystrix-badge-detail.png",
+                "bgSlide": "/img/bgChar/CharSlide/Mystrix-slide.png"
             },
             "textBg":{
-                "textView": "",
-                "textDetail": "",
-                "textHeroGame": ""
+                "textView": "/img/bgText/textView/Mystrix-text-detail.png",
+                "textDetail": "/img/bgText/textDetail/Mystrix-textDetail.png",
+                "textHeroGame": "/img/bgText/textHeroGame/Mystrix-text-logoGame.png"
             },
             "badge":{
-                "badgeView": "",
-                "badgeDetail": ""
+                "badgeView": "/img/badge/badgeView/Mystrix-badge-view.png",
+                "badgeDetail": "/img/badge/badgeDetail/Mystrix-badge-detail.png"
             },
             "slogan":"Weapons are more trustworthy than people!",
             "description": "An enigmatic woman from Rhine Advanced Military Academy's Espionage Division. Exuding an elegant yet lethal presence, this thorned rose weaves through darkness like a phantom, leaving nothing but gunsmoke and whispers in her wake."
@@ -24,20 +24,20 @@
         {
             "id": 2,
             "name": "Fighter",
-            "characterImg": "",
+            "characterImg": "/img/ImgChar/Fighter.png",
             "bgCharacter": {
-                "bgView": "",
-                "bgDetail": "",
-                "bgSlide": ""
+                "bgView": "/img/bgChar/bgView/Fighter-bg-view.png",
+                "bgDetail": "/img/badge/badgeDetail/Fighter-badge-detail.png",
+                "bgSlide": "/img/bgChar/CharSlide/Fighter-slide.png"
             },
             "textBg": {
-                "textView": "",
-                "textDetail": "",
-                "textHeroGame": ""
+                "textView": "/img/bgText/textView/Fighter-text-detail.png",
+                "textDetail": "/img/bgText/textDetail/Fighter-textDetail.png",
+                "textHeroGame": "/img/bgText/textHeroGame/Fighter-text-logoGame.png"
             },
             "badge": {
-                "badgeView": "",
-                "badgeDetail": ""
+                "badgeView": "/img/badge/badgeView/Fighter-badge-view.png",
+                "badgeDetail": "/img/badge/badgeDetail/Fighter-badge-detail.png"
             },
             "slogan": "Weapons are more trustworthy than people!",
             "description ": "An enigmatic woman from Rhine Advanced Military Academy's Espionage Division. Exuding an elegant yet lethal presence, this thorned rose weaves through darkness like a phantom, leaving nothing but gunsmoke and whispers in her wake."
@@ -45,20 +45,20 @@
         {
             "id": 3,
             "name": "Cloudstrider",
-            "characterImg": "",
+            "characterImg": "/img/ImgChar/Cloudstrider.png",
             "bgCharacter": {
-                "bgView": "",
-                "bgDetail": "",
-                "bgSlide": ""
+                "bgView": "/img/bgChar/bgView/Cloudstrider-bg-view.png",
+                "bgDetail": "/img/badge/badgeDetail/Cloudstrider-badge-detail.png",
+                "bgSlide": "/img/bgChar/CharSlide/Cloudstrider-slide.png"
             },
             "textBg": {
-                "textView": "",
-                "textDetail": "",
-                "textHeroGame": ""
+                "textView": "/img/bgText/textView/Cloudstrider-text-detail.png",
+                "textDetail": "/img/bgText/textDetail/Cloudstrider-textDetail.png",
+                "textHeroGame": "/img/bgText/textHeroGame/Cloudstrider-text-logoGame.png"
             },
             "badge": {
-                "badgeView": "",
-                "badgeDetail": ""
+                "badgeView": "/img/badge/badgeView/Cloudstrider-badge-view.png",
+                "badgeDetail": "/img/badge/badgeDetail/Cloudstrider-badge-detail.png"
             },
             "slogan": "Weapons are more trustworthy than people!",
             "description ": "An enigmatic woman from Rhine Advanced Military Academy's Espionage Division. Exuding an elegant yet lethal presence, this thorned rose weaves through darkness like a phantom, leaving nothing but gunsmoke and whispers in her wake."
@@ -66,20 +66,20 @@
         {
             "id": 4,
             "name": "Starbreaker",
-            "characterImg": "",
+            "characterImg": "/img/ImgChar/Starbreaker.png",
             "bgCharacter": {
-                "bgView": "",
-                "bgDetail": "",
-                "bgSlide": ""
+                "bgView": "/img/bgChar/bgView/Starbreaker-bg-view.png",
+                "bgDetail": "/img/badge/badgeDetail/Starbreaker-badge-detail.png",
+                "bgSlide": "/img/bgChar/CharSlide/Starbreaker-slide.png"
             },
             "textBg": {
-                "textView": "",
-                "textDetail": "",
-                "textHeroGame": ""
+                "textView": "/img/bgText/textView/Starbreaker-text-detail.png",
+                "textDetail": "/img/bgText/textDetail/Starbreaker-textDetail.png",
+                "textHeroGame": "/img/bgText/textHeroGame/Starbreaker-text-logoGame.png"
             },
             "badge": {
-                "badgeView": "",
-                "badgeDetail": ""
+                "badgeView": "/img/badge/badgeView/Starbreaker-badge-view.png",
+                "badgeDetail": "/img/badge/badgeDetail/Starbreaker-badge-detail.png"
             },
             "slogan": "Weapons are more trustworthy than people!",
             "description ": "An enigmatic woman from Rhine Advanced Military Academy's Espionage Division. Exuding an elegant yet lethal presence, this thorned rose weaves through darkness like a phantom, leaving nothing but gunsmoke and whispers in her wake."
@@ -87,20 +87,20 @@
         {
             "id": 5,
             "name": "Scytheguard",
-            "characterImg": "",
+            "characterImg": "/img/ImgChar/Scytheguard.png",
             "bgCharacter": {
-                "bgView": "",
-                "bgDetail": "",
-                "bgSlide": ""
+                "bgView": "/img/bgChar/bgView/Scytheguard-bg-view.png",
+                "bgDetail": "/img/badge/badgeDetail/Scytheguard-badge-detail.png",
+                "bgSlide": "/img/bgChar/CharSlide/Scytheguard-slide.png"
             },
             "textBg": {
-                "textView": "",
-                "textDetail": "",
-                "textHeroGame": ""
+                "textView": "/img/bgText/textView/Scytheguard-text-detail.png",
+                "textDetail": "/img/bgText/textDetail/Scytheguard-textDetail.png",
+                "textHeroGame": "/img/bgText/textHeroGame/Scytheguard-text-logoGame.png"
             },
             "badge": {
-                "badgeView": "",
-                "badgeDetail": ""
+                "badgeView": "/img/badge/badgeView/Scytheguard-badge-view.png",
+                "badgeDetail": "/img/badge/badgeDetail/Scytheguard-badge-detail.png"
             },
             "slogan": "Weapons are more trustworthy than people!",
             "description ": "An enigmatic woman from Rhine Advanced Military Academy's Espionage Division. Exuding an elegant yet lethal presence, this thorned rose weaves through darkness like a phantom, leaving nothing but gunsmoke and whispers in her wake."
@@ -108,20 +108,20 @@
         {
             "id": 6,
             "name": "Puppeteer",
-            "characterImg": "",
+            "characterImg": "/img/ImgChar/Puppeteer.png",
             "bgCharacter": {
-                "bgView": "",
-                "bgDetail": "",
-                "bgSlide": ""
+                "bgView": "/img/bgChar/bgView/Puppeteer-bg-view.png",
+                "bgDetail": "/img/badge/badgeDetail/Puppeteer-badge-detail.png",
+                "bgSlide": "/img/bgChar/CharSlide/Puppeteer-slide.png"
             },
             "textBg": {
-                "textView": "",
-                "textDetail": "",
-                "textHeroGame": ""
+                "textView": "/img/bgText/textView/Puppeteer-text-detail.png",
+                "textDetail": "/img/bgText/textDetail/Puppeteer-textDetail.png",
+                "textHeroGame": "/img/bgText/textHeroGame/Puppeteer-text-logoGame.png"
             },
             "badge": {
-                "badgeView": "",
-                "badgeDetail": ""
+                "badgeView": "/img/badge/badgeView/Puppeteer-badge-view.png",
+                "badgeDetail": "/img/badge/badgeDetail/Puppeteer-badge-detail.png"
             },
             "slogan": "Weapons are more trustworthy than people!",
             "description ": "An enigmatic woman from Rhine Advanced Military Academy's Espionage Division. Exuding an elegant yet lethal presence, this thorned rose weaves through darkness like a phantom, leaving nothing but gunsmoke and whispers in her wake."
@@ -129,20 +129,20 @@
         {
             "id": 7,
             "name": "Gunner",
-            "characterImg": "",
+            "characterImg": "/img/ImgChar/Gunner.png",
             "bgCharacter": {
-                "bgView": "",
-                "bgDetail": "",
-                "bgSlide": ""
+                "bgView": "/img/bgChar/bgView/Gunner-bg-view.png",
+                "bgDetail": "/img/badge/badgeDetail/Gunner-badge-detail.png",
+                "bgSlide": "/img/bgChar/CharSlide/Gunner-slide.png"
             },
             "textBg": {
-                "textView": "",
-                "textDetail": "",
-                "textHeroGame": ""
+                "textView": "/img/bgText/textView/Gunner-text-detail.png",
+                "textDetail": "/img/bgText/textDetail/Gunner-textDetail.png",
+                "textHeroGame": "/img/bgText/textHeroGame/Gunner-text-logoGame.png"
             },
             "badge": {
-                "badgeView": "",
-                "badgeDetail": ""
+                "badgeView": "/img/badge/badgeView/Gunner-badge-view.png",
+                "badgeDetail": "/img/badge/badgeDetail/Gunner-badge-detail.png"
             },
             "slogan": "Weapons are more trustworthy than people!",
             "description ": "An enigmatic woman from Rhine Advanced Military Academy's Espionage Division. Exuding an elegant yet lethal presence, this thorned rose weaves through darkness like a phantom, leaving nothing but gunsmoke and whispers in her wake."
@@ -150,20 +150,20 @@
         {
             "id": 8,
             "name": "Bounty Hunter",
-            "characterImg": "",
+            "characterImg": "/img/ImgChar/BountyHunter.png",
             "bgCharacter": {
-                "bgView": "",
-                "bgDetail": "",
-                "bgSlide": ""
+                "bgView": "/img/bgChar/bgView/BountyHunter-bg-view.png",
+                "bgDetail": "/img/badge/badgeDetail/BountyHunter-badge-detail.png",
+                "bgSlide": "/img/bgChar/CharSlide/BountyHunter-slide.png"
             },
             "textBg": {
-                "textView": "",
-                "textDetail": "",
-                "textHeroGame": ""
+                "textView": "/img/bgText/textView/BountyHunter-text-detail.png",
+                "textDetail": "/img/bgText/textDetail/BountyHunter-textDetail.png",
+                "textHeroGame": "/img/bgText/textHeroGame/BountyHunter-text-logoGame.png"
             },
             "badge": {
-                "badgeView": "",
-                "badgeDetail": ""
+                "badgeView": "/img/badge/badgeView/BountyHunter-badge-view.png",
+                "badgeDetail": "/img/badge/badgeDetail/BountyHunter-badge-detail.png"
             },
             "slogan": "Weapons are more trustworthy than people!",
             "description ": "An enigmatic woman from Rhine Advanced Military Academy's Espionage Division. Exuding an elegant yet lethal presence, this thorned rose weaves through darkness like a phantom, leaving nothing but gunsmoke and whispers in her wake."
@@ -171,20 +171,20 @@
         {
             "id": 9,
             "name": "Musketeer",
-            "characterImg": "",
+            "characterImg": "/img/ImgChar/Musketeer.png",
             "bgCharacter": {
-                "bgView": "",
-                "bgDetail": "",
-                "bgSlide": ""
+                "bgView": "/img/bgChar/bgView/Musketeer-bg-view.png",
+                "bgDetail": "/img/badge/badgeDetail/Musketeer-badge-detail.png",
+                "bgSlide": "/img/bgChar/CharSlide/Musketeer-slide.png"
             },
             "textBg": {
-                "textView": "",
-                "textDetail": "",
-                "textHeroGame": ""
+                "textView": "/img/bgText/textView/Musketeer-text-detail.png",
+                "textDetail": "/img/bgText/textDetail/Musketeer-textDetail.png",
+                "textHeroGame": "/img/bgText/textHeroGame/Musketeer-text-logoGame.png"
             },
             "badge": {
-                "badgeView": "",
-                "badgeDetail": ""
+                "badgeView": "/img/badge/badgeView/Musketeer-badge-view.png",
+                "badgeDetail": "/img/badge/badgeDetail/Musketeer-badge-detail.png"
             },
             "slogan": "Weapons are more trustworthy than people!",
             "description ": "An enigmatic woman from Rhine Advanced Military Academy's Espionage Division. Exuding an elegant yet lethal presence, this thorned rose weaves through darkness like a phantom, leaving nothing but gunsmoke and whispers in her wake."
@@ -192,20 +192,20 @@
         {
             "id": 10,
             "name": "Blademaiden",
-            "characterImg": "",
+            "characterImg": "/img/ImgChar/Blademaiden.png",
             "bgCharacter": {
-                "bgView": "",
-                "bgDetail": "",
-                "bgSlide": ""
+                "bgView": "/img/bgChar/bgView/Blademaiden-bg-view.png",
+                "bgDetail": "/img/badge/badgeDetail/Blademaiden-badge-detail.png",
+                "bgSlide": "/img/bgChar/CharSlide/Blademaiden-slide.png"
             },
             "textBg": {
-                "textView": "",
-                "textDetail": "",
-                "textHeroGame": ""
+                "textView": "/img/bgText/textView/Blademaiden-text-detail.png",
+                "textDetail": "/img/bgText/textDetail/Blademaiden-textDetail.png",
+                "textHeroGame": "/img/bgText/textHeroGame/Blademaiden-text-logoGame.png"
             },
             "badge": {
-                "badgeView": "",
-                "badgeDetail": ""
+                "badgeView": "/img/badge/badgeView/Blademaiden-badge-view.png",
+                "badgeDetail": "/img/badge/badgeDetail/Blademaiden-badge-detail.png"
             },
             "slogan": "Weapons are more trustworthy than people!",
             "description ": "An enigmatic woman from Rhine Advanced Military Academy's Espionage Division. Exuding an elegant yet lethal presence, this thorned rose weaves through darkness like a phantom, leaving nothing but gunsmoke and whispers in her wake."

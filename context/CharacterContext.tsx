@@ -1,9 +1,9 @@
-import { createContext, ReactNode, useCallback, useContext, useMemo, useState } from 'react';    
+import { createContext, ReactNode, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react';    
 import CharacterService from '@/store/slice/CharacterSlice';
-import { Character } from '@/types/Character';
+import { CharacterType } from '@/types/Character';
 
 interface CharacterContextState {
-    character: Character[];
+    character: CharacterType[];
 }
 
 interface CharacterContextActions{
@@ -24,6 +24,7 @@ const initialState: CharacterContextState = {
 
 export const CharacterProvider: React.FC<CharacterProviderProps> = ({ children }) => {
     const [state, setState] = useState<CharacterContextState>(initialState);
+    const fetchsCharacterRef = useRef<boolean | null>(null);
 
     const LoadCharacter = useCallback(async () => {
         try {
@@ -36,7 +37,14 @@ export const CharacterProvider: React.FC<CharacterProviderProps> = ({ children }
             console.log(error);
             throw error
         }
-    },[])
+    }, [])
+    
+    useEffect(() => {
+        if (!fetchsCharacterRef.current) {
+            fetchsCharacterRef.current = true;
+            LoadCharacter();
+        }
+    },[LoadCharacter])
 
     const contextValue = useMemo<CharacterContextType>(() => ({
         character: state.character,

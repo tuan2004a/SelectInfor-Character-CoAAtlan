@@ -7,3 +7,59 @@ body {
 .badgeView{
     mask-image: linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%, transparent 100%, transparent 100%);
 }
+
+@layer utilities{
+    .swiper-slide-active > .itemsChar > .silderChar{
+        @apply !scale-135 !duration-500 !transition-all
+    }
+    
+    .slideItemsData{
+        & > .Mystrix{
+            @apply bottom-10 left-25
+        }
+        & > .Fighter {
+            @apply -bottom-65 left-0 !scale-190
+        }
+        & > .Cloudstrider{
+            @apply -bottom-60 left-16 !scale-180
+        }
+        & > .Starbreaker {
+            @apply -bottom-20 left-0 !scale-170
+        }
+        & > .Scytheguard {
+            @apply bottom-10 left-0 !scale-180
+        }
+        & > .Puppeteer{
+            @apply bottom-10 left-0
+        }
+        & > .Gunner{
+            @apply bottom-1/2 -left-5 translate-y-1/2 scale-270
+        }
+        & > .Bounty.Hunter{
+            @apply bottom-30 -left-12
+        }
+        & > .Musketeer{
+            @apply bottom-25
+        }
+        & > .Blademaiden{
+            @apply bottom-25 
+        }
+    }
+
+    .flex-center{
+        @apply flex items-center justify-center
+    }
+}
+
+@theme {
+    --animate-moveX: moveX 2s ease-in-out infinite;
+
+    @keyframes moveX {
+        0%,100% {
+                transform: translateX(0);
+        }
+        50% {
+            transform: translateX(10px);
+        }
+    } 
+}

@@ -1,8 +1,16 @@
-const Button = () => {
+import { ReactNode } from "react";
+
+interface CharacterProps{
+    className?: string,
+    children: ReactNode;
+}
+
+
+const Button: React.FC<CharacterProps> = ({children,className}) => {
     return (
-        <div>
-        
-        </div>
+        <button className={`${className}  `}>
+            {children}
+        </button>
     )
 }
 
