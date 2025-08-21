@@ -11,7 +11,7 @@ interface CharacterProps{
 const Character: React.FC<CharacterProps> = ({ className, ItemsData }) => {
 
     if (!ItemsData) return null;
-    console.log(ItemsData)
+    // console.log(ItemsData)
 
     return (
         <div className={`${className} slideItemsData absolute size-full inset-0 bg-no-repeat bg-center bg-cover`} style={{backgroundImage: `url(${ItemsData.bgCharacter.bgView})`}}>
