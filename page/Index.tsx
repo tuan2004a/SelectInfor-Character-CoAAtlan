@@ -3,23 +3,24 @@
 import Character from "@/components/Character";
 import DetailChar from "@/components/DetailChar";
 import SelectChar from "@/components/SelectChar";
-
 import React, { useEffect, useRef, useState } from "react";
 import { useCharacterContext, CharacterProvider } from "@/context/CharacterContext";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import type { Swiper as SwiperClass } from "swiper";
 import {CharacterType} from "@/types/Character";
 import Button from "@/components/common/Button";
+import useOpenDetail from '@/hooks/useOpenDetail';
 
 
 const IndexContent = () => {
 
+    const { isOpenDetail, hanldeOpenDetail, hanldeClostDetail } = useOpenDetail();
     const { LoadCharacter, character } = useCharacterContext();
     const ItemsCharacter = character || [];
 
     const swiperRef = useRef<SwiperClass | null>(null);
     const [firstCharData, setFirstCharData] = useState<CharacterType | null>(null);
-    // console.log(firstCharData)
+
 
     useEffect(() => {
         if (ItemsCharacter.length > 0 && !firstCharData) {
@@ -30,9 +31,9 @@ const IndexContent = () => {
 
     return (
         <div className="max-w-screen h-screen flex overflow-y-hidden">
-            <div className="w-1/3 bg-amber-400 h-full relative">
-                <Character ItemsData={firstCharData} className="" />
-                <Button className="animate-bounce">
+            <div className="w-1/3 bg-amber-400 h-full relative ">
+                <Character isOpenDetail={isOpenDetail} ItemsData={firstCharData} className="" />
+                <Button onClick={hanldeOpenDetail} className="animate-bounce">
                     Xem chi tiết
                 </Button>
             </div>
@@ -60,8 +61,8 @@ const IndexContent = () => {
                     </button>
                 </Swiper>
             </div>
-            <div className="max-w-full h-full ">
-                <DetailChar className="hidden"/>
+            <div className="size-full z-50 absolute inset-0 ">
+                <DetailChar className=""/>
             </div>
         </div>
     )
