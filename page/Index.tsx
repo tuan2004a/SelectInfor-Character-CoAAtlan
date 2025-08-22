@@ -61,8 +61,15 @@ const IndexContent = () => {
                     </button>
                 </Swiper>
             </div>
-            <div className="size-full z-50 absolute inset-0 ">
-                <DetailChar className=""/>
+            <div className="size-full absolute inset-0">
+                <div className="size-full ">
+                    <DetailChar className="z-20"/>
+                </div>
+                <div className="text-white p-7 max-w-2xl bg-black/30 *:leading-normal last:text-sm absolute top-1/2 right-1/2 translate-y-1/2 z-50">
+                {/* <div className="text-white p-7 max-w-2xl bg-black/30 *:leading-normal last:text-sm -translate-x-50 -translate-y-20 !z-100"> */}
+                    <h4 className="border-b border-gray-500 pb-3 mb-3 text-xl font-medium">Weapons are more trustworthy than people!</h4>
+                    <p>An enigmatic woman from Rhine Advanced Military Academy's Espionage Division. Exuding an elegant yet lethal presence, this thorned rose weaves through darkness like a phantom, leaving nothing but gunsmoke and whispers in her wake.</p>
+                </div>
             </div>
         </div>
     )
