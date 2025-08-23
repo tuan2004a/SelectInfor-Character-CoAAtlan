@@ -6,7 +6,7 @@
             "characterImg": "/img/ImgChar/Mystrix.png",
             "bgCharacter": {
                 "bgView": "/img/bgChar/bgView/Mystrix-bg-view.png",
-                "bgDetail": "/img/badge/badgeDetail/Mystrix-badge-detail.png",
+                "bgDetail": "/img/bgChar/bgDetail/Mystrix-bg-detail.png",
                 "bgSlide": "/img/bgChar/CharSlide/Mystrix-slide.png"
             },
             "textBg":{
@@ -27,7 +27,7 @@
             "characterImg": "/img/ImgChar/Fighter.png",
             "bgCharacter": {
                 "bgView": "/img/bgChar/bgView/Fighter-bg-view.png",
-                "bgDetail": "/img/badge/badgeDetail/Fighter-badge-detail.png",
+                "bgDetail": "/img/bgChar/bgDetail/Fighter-bg-detail.png",
                 "bgSlide": "/img/bgChar/CharSlide/Fighter-slide.png"
             },
             "textBg": {
@@ -48,7 +48,7 @@
             "characterImg": "/img/ImgChar/Cloudstrider.png",
             "bgCharacter": {
                 "bgView": "/img/bgChar/bgView/Cloudstrider-bg-view.png",
-                "bgDetail": "/img/badge/badgeDetail/Cloudstrider-badge-detail.png",
+                "bgDetail": "/img/bgChar/bgDetail/Cloudstrider-bg-detail.png",
                 "bgSlide": "/img/bgChar/CharSlide/Cloudstrider-slide.png"
             },
             "textBg": {
@@ -69,7 +69,7 @@
             "characterImg": "/img/ImgChar/Starbreaker.png",
             "bgCharacter": {
                 "bgView": "/img/bgChar/bgView/Starbreaker-bg-view.png",
-                "bgDetail": "/img/badge/badgeDetail/Starbreaker-badge-detail.png",
+                "bgDetail": "/img/bgChar/bgDetail/Starbreaker-bg-detail.png",
                 "bgSlide": "/img/bgChar/CharSlide/Starbreaker-slide.png"
             },
             "textBg": {
@@ -90,7 +90,7 @@
             "characterImg": "/img/ImgChar/Scytheguard.png",
             "bgCharacter": {
                 "bgView": "/img/bgChar/bgView/Scytheguard-bg-view.png",
-                "bgDetail": "/img/badge/badgeDetail/Scytheguard-badge-detail.png",
+                "bgDetail": "/img/bgChar/bgDetail/Scytheguard-bg-detail.png",
                 "bgSlide": "/img/bgChar/CharSlide/Scytheguard-slide.png"
             },
             "textBg": {
@@ -111,7 +111,7 @@
             "characterImg": "/img/ImgChar/Puppeteer.png",
             "bgCharacter": {
                 "bgView": "/img/bgChar/bgView/Puppeteer-bg-view.png",
-                "bgDetail": "/img/badge/badgeDetail/Puppeteer-badge-detail.png",
+                "bgDetail": "/img/bgChar/bgDetail/Puppeteer-bg-detail.png",
                 "bgSlide": "/img/bgChar/CharSlide/Puppeteer-slide.png"
             },
             "textBg": {
@@ -132,7 +132,7 @@
             "characterImg": "/img/ImgChar/Gunner.png",
             "bgCharacter": {
                 "bgView": "/img/bgChar/bgView/Gunner-bg-view.png",
-                "bgDetail": "/img/badge/badgeDetail/Gunner-badge-detail.png",
+                "bgDetail": "/img/bgChar/bgDetail/Gunner-bg-detail.png",
                 "bgSlide": "/img/bgChar/CharSlide/Gunner-slide.png"
             },
             "textBg": {
@@ -153,7 +153,7 @@
             "characterImg": "/img/ImgChar/BountyHunter.png",
             "bgCharacter": {
                 "bgView": "/img/bgChar/bgView/BountyHunter-bg-view.png",
-                "bgDetail": "/img/badge/badgeDetail/BountyHunter-badge-detail.png",
+                "bgDetail": "/img/bgChar/bgDetail/BountyHunter-bg-detail.png",
                 "bgSlide": "/img/bgChar/CharSlide/BountyHunter-slide.png"
             },
             "textBg": {
@@ -174,7 +174,7 @@
             "characterImg": "/img/ImgChar/Musketeer.png",
             "bgCharacter": {
                 "bgView": "/img/bgChar/bgView/Musketeer-bg-view.png",
-                "bgDetail": "/img/badge/badgeDetail/Musketeer-badge-detail.png",
+                "bgDetail": "/img/bgChar/bgDetail/Musketeer-bg-detail.png",
                 "bgSlide": "/img/bgChar/CharSlide/Musketeer-slide.png"
             },
             "textBg": {
@@ -195,7 +195,7 @@
             "characterImg": "/img/ImgChar/Blademaiden.png",
             "bgCharacter": {
                 "bgView": "/img/bgChar/bgView/Blademaiden-bg-view.png",
-                "bgDetail": "/img/badge/badgeDetail/Blademaiden-badge-detail.png",
+                "bgDetail": "/img/bgChar/bgDetail/Blademaiden-bg-detail.png",
                 "bgSlide": "/img/bgChar/CharSlide/Blademaiden-slide.png"
             },
             "textBg": {

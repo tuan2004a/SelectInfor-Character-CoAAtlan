@@ -30,46 +30,44 @@ const IndexContent = () => {
 
 
     return (
-        <div className="max-w-screen h-screen flex overflow-y-hidden">
-            <div className="w-1/3 bg-amber-400 h-full relative ">
-                <Character isOpenDetail={isOpenDetail} ItemsData={firstCharData} className="" />
-                <Button onClick={hanldeOpenDetail} className="animate-bounce">
-                    Xem chi tiết
-                </Button>
-            </div>
-            <div className="w-2/3 bg-black h-full">
-                <Swiper
-                    onSwiper={(swiper) => (swiperRef.current = swiper)}
-                    onSlideChange={(swiper) => {
-                        const index = swiper.realIndex;
-                        setFirstCharData(ItemsCharacter[index]); 
-                    }}
-                    loop={true}
-                    loopAdditionalSlides={ItemsCharacter.length}
-                    slidesPerGroup={1}
-                    centeredSlides={false}
-                    grabCursor
-                    slidesPerView={4}
-                    spaceBetween={0} className="overflow-hidden h-full duration-500">
-                    {ItemsCharacter.map((item, index) => (
-                        <SwiperSlide key={index}>
-                            <SelectChar ItemsData={item} className="" />
-                        </SwiperSlide> 
-                    ))}    
-                    <button onClick={() => swiperRef.current?.slideNext()} className="absolute top-1/2 -translate-y-1/2 right-5 rotate-180 z-50 size-13 flex-center animate-moveX">
-                        <img className="h-8" src="/img/btn-prev.webp" alt="" />
-                    </button>
-                </Swiper>
-            </div>
-            <div className="size-full absolute inset-0">
-                <div className="size-full ">
-                    <DetailChar className="z-20"/>
+        <div className="max-w-screen h-screen">
+            <div className={`flex h-full overflow-hidden duration-300 transition-all ` }>
+                <div className={`w-1/3  bg-amber-400 h-full relative`}>
+                    <Character isOpenDetail={isOpenDetail} ItemsData={firstCharData} className="" />
+                    <Button onClick={hanldeOpenDetail} className="animate-bounce">
+                        Xem chi tiết
+                    </Button>
                 </div>
-                <div className="text-white p-7 max-w-2xl bg-black/30 *:leading-normal last:text-sm absolute top-1/2 right-1/2 translate-y-1/2 z-50">
-                {/* <div className="text-white p-7 max-w-2xl bg-black/30 *:leading-normal last:text-sm -translate-x-50 -translate-y-20 !z-100"> */}
-                    <h4 className="border-b border-gray-500 pb-3 mb-3 text-xl font-medium">Weapons are more trustworthy than people!</h4>
-                    <p>An enigmatic woman from Rhine Advanced Military Academy's Espionage Division. Exuding an elegant yet lethal presence, this thorned rose weaves through darkness like a phantom, leaving nothing but gunsmoke and whispers in her wake.</p>
+                <div className={`w-2/3 bg-black h-full`}>
+                    <Swiper
+                        onSwiper={(swiper) => (swiperRef.current = swiper)}
+                        onSlideChange={(swiper) => {
+                            const index = swiper.realIndex;
+                            setFirstCharData(ItemsCharacter[index]); 
+                        }}
+                        loop={true}
+                        loopAdditionalSlides={ItemsCharacter.length}
+                        slidesPerGroup={1}
+                        centeredSlides={false}
+                        grabCursor
+                        slidesPerView={4}
+                        spaceBetween={0} className="overflow-hidden h-full duration-500">
+                        {ItemsCharacter.map((item, index) => (
+                            <SwiperSlide key={index}>
+                                <SelectChar ItemsData={item} className="" />
+                            </SwiperSlide> 
+                        ))}    
+                        <button onClick={() => swiperRef.current?.slideNext()} className="absolute top-1/2 -translate-y-1/2 right-5 rotate-180 z-50 size-13 flex-center animate-moveX">
+                            <img className="h-8" src="/img/btn-prev.webp" alt="" />
+                        </button>
+                    </Swiper>
                 </div>
+            </div>
+            <div className={`${isOpenDetail ==  true ? " translate-x-0 duration-750 transition-all" : " -translate-x-full pointer-events-none"} z-10 size-full absolute inset-0`}>
+                <DetailChar firstCharData={ firstCharData} />
+                <button onClick={hanldeClostDetail} className="pointer-events-auto absolute top-7 left-7 z-50 size-13 flex-center animate-moveX">
+                    <img className="h-8" src="/img/btn-prev.webp" alt="" />
+                </button>
             </div>
         </div>
     )
