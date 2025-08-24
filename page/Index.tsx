@@ -34,11 +34,11 @@ const IndexContent = () => {
             <div className={`flex h-full overflow-hidden duration-300 transition-all ` }>
                 <div className={`w-1/3  bg-amber-400 h-full relative`}>
                     <Character isOpenDetail={isOpenDetail} ItemsData={firstCharData} className="" />
-                    <Button onClick={hanldeOpenDetail} className="animate-bounce">
+                    <Button onClick={hanldeOpenDetail}  className="animate-bounce">
                         Xem chi tiết
                     </Button>
                 </div>
-                <div className={`w-2/3 bg-black h-full`}>
+                <div className={`w-2/3 bg-black h-full z-0`}>
                     <Swiper
                         onSwiper={(swiper) => (swiperRef.current = swiper)}
                         onSlideChange={(swiper) => {
